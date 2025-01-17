@@ -1,0 +1,329 @@
+
+
+.open-sans-normal {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+  font-variation-settings:
+    "width" 100;
+}
+
+/* shared style  */ 
+
+.text-primary {
+    color: #0E0E0E;
+
+}
+.btn-primary {
+    font-size: 18px;
+    font-weight: SemiBold ;
+    color: #006A50;
+    padding: 15px 30px;
+    border-radius: 8px;
+   
+
+}
+
+/* Nav styles */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 160px 24px;
+
+}
+
+.nav-title{
+    font-weight: 600;
+    font-size: 32px;} 
+
+    nav ul {
+        display: flex;
+        align-items:center ;
+    }
+ 
+  nav ul li{
+   list-style: none;
+
+  }  
+  
+  nav li a {
+    text-decoration: none ;
+    font-size: 18px;
+  }
+
+  /* banner styles */
+
+  .banner{
+    background-color: #C6E4D6;
+    border-radius: 24px ;
+
+    display: flex;
+   justify-content: space-between;
+   margin: 100px 80px ;
+  }
+
+  .extra-btn{
+    background-color: #006A50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    
+  }
+
+
+
+  .bnr-clr {
+   
+    font-weight: 500 ;
+    font-size: 24;
+    text-align: left;
+    padding: 20px;
+
+  }
+   
+  .banner-description {
+    font-size: 56;
+    font-weight: bold;
+    height:210px ;
+    width: 622px;
+    margin: 15px 0  10px 15px ;
+
+  }
+  .bnr-pic{
+    height: 350px;
+    width: 400.03px;
+    margin: 80px 60px 80px 0 ;
+  }
+
+  /* cards styles */
+
+  .card-img{
+    text-align: left;
+    height: 64px;
+    width: 64px;
+   
+  }
+
+   
+
+.container {  
+    max-width: 800px;  
+    margin: 0 auto;  
+}  
+
+h1 {  
+    text-align:left;  
+}  
+
+.cards {  
+    display: flex;  
+    justify-content: space-between;  
+    margin-top: 20px;  
+}  
+
+.card {  
+    background-color: #e9ecef;  
+    border-radius: 8px;  
+    padding: 20px;  
+    text-align: center;  
+    box-shadow: 0 2px 5px 
+    flex: 1;  
+    margin: 0 10px;  
+}  
+
+.digital-transformation {  
+    background-color: #5490F5;  
+}  
+
+.green-energy {  
+    background-color: #C6E4D6;  
+}  
+
+.modern-infrastructure {  
+    background-color: #F7EBCF;  
+}  
+
+.btn {  
+    display: inline-block;  
+    margin-top: 10px;  
+    padding: 10px 15px;  
+    background-color: #5490F5 ;  
+    color: white;  
+    border-radius: 5px;  
+    text-decoration: none;  
+}  
+.btna{
+  
+  background-color: #5490F5;
+  display: inline-block;  
+    margin-top: 10px;  
+    padding: 10px 15px;  
+     color: white;  
+    border-radius: 5px;  
+    text-decoration: none; 
+}
+
+.btnb{background-color: #09A15C;
+  display: inline-block;  
+  margin-top: 10px;  
+  padding: 10px 15px;  
+  color: white;  
+  border-radius: 5px;  
+  text-decoration: none; }
+
+.btnc{ display: inline-block;  
+  margin-top: 10px;  
+  padding: 10px 15px;  
+  background-color: #FFC239 ;  
+  color: white;  
+  border-radius: 5px;  
+  text-decoration: none; 
+
+}
+
+
+.btna:hover  {  
+    background-color: #b30074;  
+}
+.btnb:hover{
+  background-color: #b30074;
+}
+
+.btnc:hover{background-color: #b30074;}
+
+/* satelite */
+
+
+.container-2 {  
+  max-width: 800px;  
+  margin: auto;  
+  background: #fff;  
+  padding: 20px;  
+  border-radius: 5px;  
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);  
+}  
+
+h1 {  
+  font-size: 24px;  
+  color: #333;  
+}  
+
+.news-card {  
+  display: flex;  
+  background: #f0f0f0;  
+  margin: 15px 0;  
+  border-radius: 5px;  
+}  
+
+.news-image {  
+  width: 200px;  
+  border-radius: 5px 0 0 5px;  
+  padding: 26px 13px;
+}  
+
+.news-content {  
+  padding: 15px;  
+  flex: 1;  
+}  
+
+.news-meta {  
+  font-size: 12px;  
+  color: #555;  
+}  
+
+.source {  
+  font-weight: bold;  
+}  
+
+.date {  
+  margin-left: 10px;  
+}  
+
+p {  
+  margin: 10px 0;  
+}  
+
+.read-more {  
+  display: inline-block;  
+  padding: 10px 15px;  
+  background-color: #006A50;  
+  color: white;  
+  text-decoration: none;  
+  border-radius: 5px;  
+}  
+
+.read-more:hover {  
+  background-color: #0056b3;  
+}  
+
+
+/* donate card */
+
+.container-3 {  
+  max-width: 600px;  
+  margin: 0 auto;  
+  text-align: center;  
+  background-color: #fff;  
+  padding: 20px;  
+  border-radius: 10px;  
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);  
+}  
+
+h1 {  
+  margin-bottom: 10px; 
+  text-align: center; 
+}  
+
+.donation-buttons {  
+  display: flex;  
+  justify-content: space-between;  
+  margin: 20px 0;  
+}  
+
+.donation-option {  
+  flex: 1;  
+  margin: 0 10px;  
+  padding: 10px;  
+  border: 1px solid #ccc;  
+  background-color: #fff;  
+  font-size: 16px;  
+  cursor: pointer;  
+  transition: background-color 0.3s ease; 
+  border-radius: 16px; 
+}  
+
+.donation-option:hover {  
+  background-color: #f0f0f0;  
+}  
+
+.donation-option.active {  
+  background-color: #a8e6cf;  
+  font-weight: bold;  
+}  
+
+.other-amount {  
+  width: 80%;  
+  padding: 10px;  
+  margin: 20px 0;  
+  border: 1px solid #ccc;  
+  border-radius:none;  
+  text-align: center;
+}  
+
+.donate-button {  
+  background-color: #4caf50;  
+  color: white;  
+  padding: 10px 20px;  
+  border: none;  
+  border-radius: 8px;  
+  cursor: pointer;  
+  font-size: 16px;  
+  transition: background-color 0.3s ease;  
+}  
+
+.donate-button:hover {  
+  background-color: #a0459d;  
+}  
